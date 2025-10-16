@@ -1,0 +1,17 @@
+git init
+git add .
+git commit -m "Initial commit: added project files"
+git branch feature-login
+git checkout feature-login
+git add app.js
+git commit -m "Added login feature in app.js"
+git checkout main
+git add style.css
+git commit -m "Updated styles in style.css"
+git merge feature-login
+git add <filename>
+git commit -m "Resolved merge conflicts"
+git diff
+git reset HEAD <filename>
+git checkout -- <filename>
+git tag v1.0
